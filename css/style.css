@@ -25,6 +25,10 @@ header div {
     border: 1px solid red;
 }
 
+section {
+    padding: 20px 0;
+}
+
 
 /* ?MAIN */
 /* Sezione Jumbotron */
@@ -38,4 +42,14 @@ header div {
     min-height: 200px;
     background-color: brown;
     margin-top: 0.8rem;
+}
+
+/* Sezione about-us */
+section.about-us {
+    background-color: #1abc9c;
+}
+
+.about-us div.col {
+    min-height: 100px;
+    background-color: brown;
 }
