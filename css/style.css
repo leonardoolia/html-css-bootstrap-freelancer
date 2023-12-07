@@ -17,9 +17,11 @@ header div {
     border: 1px solid red;
 }
 
-li {
+li,
+a {
     text-decoration: none;
     list-style-type: none;
+    color: white;
 }
 
 /* ?HEADER */
