@@ -25,9 +25,9 @@ header div {
     border: 1px solid red;
 }
 
-section {
+/* section {
     padding: 20px 0;
-}
+} */
 
 
 /* ?MAIN */
@@ -53,3 +53,8 @@ section.about-us {
     min-height: 100px;
     background-color: brown;
 }
+
+/* Sezione contact-us */
+
+
+/* Sezione info */
