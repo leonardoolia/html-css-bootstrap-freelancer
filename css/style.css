@@ -25,9 +25,9 @@ header div {
     border: 1px solid red;
 }
 
-/* section {
+section {
     padding: 20px 0;
-} */
+}
 
 
 /* ?MAIN */
@@ -58,3 +58,6 @@ section.about-us {
 
 
 /* Sezione info */
+.info {
+    background-color: #3a546d;
+}
