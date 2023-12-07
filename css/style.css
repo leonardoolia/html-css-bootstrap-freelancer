@@ -1,0 +1,25 @@
+/* ?UTILS */
+
+[class^=col] {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+/* ?GENERICS */
+header,
+footer {
+    min-height: 80px;
+    background-color: #2c3e50;
+}
+
+header div {
+    min-height: 40px;
+    border: 1px solid red;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ?HEADER */
