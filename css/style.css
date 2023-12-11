@@ -30,6 +30,10 @@ section {
     min-height: 500px;
 }
 
+.card img {
+    max-height: 250px;
+}
+
 
 /* ?MAIN */
 /* Sezione Jumbotron */
@@ -37,6 +41,30 @@ section {
     min-height: 200px;
     background-color: #1abc9c;
 }
+
+.jumbotron .card {
+    background-color: #1abc9c;
+    border-color: transparent;
+}
+
+.card-decoration {
+    width: 100px;
+    height: 4px;
+    margin: 3px auto;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.jumbotron .card-decoration {
+    background-color: white;
+    margin: 0 10px;
+}
+
+.card-body i {
+    position: relative;
+    top: 10px;
+}
+
 
 /* Sezione portfolio */
 .portfolio div.col {
