@@ -103,7 +103,28 @@ section.about-us {
 
 
 /* Sezione contact-us */
+.contact-us .form-control {
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    padding-left: 0;
+}
 
+.contact-us .form-control::placeholder {
+    color: var(--secondarycolor)
+}
+
+.btn-primary {
+    background-color: var(--bgprimary);
+    border-color: transparent;
+}
+
+.contact-us {
+    color: var(--secondarycolor);
+}
+
+.contact-us .card-decoration {
+    background-color: var(--secondarycolor);
+}
 
 /* ?FOOTER */
 /* Sezione info */
