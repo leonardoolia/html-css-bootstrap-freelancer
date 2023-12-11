@@ -2,6 +2,7 @@
 :root {
     --primarycolor: #fff;
     --secondarycolor: #2c3e50;
+    --bgprimary: #1abc9c;
 }
 
 /* ?GENERICS */
@@ -44,11 +45,11 @@ section {
 /* Sezione Jumbotron */
 .jumbotron {
     min-height: 200px;
-    background-color: #1abc9c;
+    background-color: var(--bgprimary);
 }
 
 .jumbotron .card {
-    background-color: #1abc9c;
+    background-color: var(--bgprimary);
     border-color: transparent;
 }
 
@@ -106,4 +107,14 @@ section.about-us {
 /* Sezione info */
 .footer-top {
     background-color: #3a546d;
+}
+
+.footer-top .col i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-top a {
+    color: var(--bgprimary);
 }
