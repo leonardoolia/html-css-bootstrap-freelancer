@@ -1,22 +1,21 @@
-/* ?UTILS */
-
-[class^=col] {
-    border: 1px solid black;
-    background-color: aquamarine;
+/* ?CSS PROPERTIES */
+:root {
+    --primarycolor: #fff;
+    --secondarycolor: #2c3e50;
 }
 
 /* ?GENERICS */
 header,
 .footer-bot {
     min-height: 80px;
-    background-color: #2c3e50;
+    background-color: var(--secondarycolor);
 }
 
 li,
 a {
     text-decoration: none;
     list-style-type: none;
-    color: white;
+    color: var(--primarycolor);
 }
 
 img {
@@ -62,7 +61,7 @@ section {
 }
 
 .jumbotron .card-decoration {
-    background-color: white;
+    background-color: var(--primarycolor);
 }
 
 i {
@@ -72,10 +71,12 @@ i {
 
 
 /* Sezione portfolio */
-
+.portfolio {
+    color: var(--secondarycolor);
+}
 
 .portfolio .card-decoration {
-    background-color: #2c3e50;
+    background-color: var(--secondarycolor);
 }
 
 /* Sezione about-us */
@@ -83,9 +84,20 @@ section.about-us {
     background-color: #1abc9c;
 }
 
-.about-us div.col {
-    background-color: brown;
+.about-us .card-decoration {
+    background-color: var(--primarycolor);
 }
+
+.about-us button {
+    max-width: 150px;
+}
+
+.about-us button i {
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+
 
 /* Sezione contact-us */
 
