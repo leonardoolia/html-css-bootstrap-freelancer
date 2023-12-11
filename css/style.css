@@ -38,6 +38,9 @@ img {
 
 /* ?HEADER */
 
+header .navbar button {
+    border-color: #fff;
+}
 
 
 /* ?MAIN */
