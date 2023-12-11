@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-between justify-content-md-around align-items-center text-white px-2">
+    <!-- <header class="d-flex justify-content-between justify-content-md-around align-items-center text-white px-2">
         <div>H1 START BOOSTRAP</div>
         <div class="d-md-none">ICONA MENU</div>
         <ul class="d-none d-md-flex gap-3">
@@ -24,12 +24,16 @@
             <li><a href="#">link</a></li>
             <li><a href="#">link</a></li>
         </ul>
+    </header> -->
+
+    <header>
+        <div class="container">Header</div>
     </header>
 
     <main>
         <!-- Sezione jumbotron -->
         <section class="jumbotron text-white">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-6 offset-3">
                         Jumbotron
@@ -40,9 +44,11 @@
 
         <!-- Sezione portfolio -->
         <section class="portfolio">
-            <div class="container container-md container-lg">
-                <div class="text-center">PORTFOLIO</div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">PORTFOLIO</div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col"></div>
                     <div class="col"></div>
                     <div class="col"></div>
@@ -56,12 +62,20 @@
         <!-- Sezione about-us -->
         <section class="about-us text-white">
             <div class="container">
-                <div class="text-center">ABOUT</div>
-                <div class="row row-cols-1 row-cols-md-2 px-5 px-2 g-2">
-                    <div class="col"></div>
-                    <div class="col"></div>
+                <div class="row">
+                    <div class="col-12 text-center">ABOUT</div>
                 </div>
-                <div class="button text-center">Download</div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Repellendus iste ratione atque consequatur necessitatibus, asperiores distinctio amet eos
+                        possimus similique sed quia. Amet autem error hic eius iste temporibus dicta.</div>
+                    <div class="col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium officia, corrupti vero sunt fuga velit deserunt doloribus labore reiciendis omnis
+                        odio quis quam dicta odit amet facilis, repellat est! Laudantium.</div>
+                </div>
+                <div class="row">
+                    <div class="col">Download</div>
+                </div>
             </div>
         </section>
 
@@ -69,28 +83,28 @@
         <section class="contact-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 offset-2">
-                        CONTACT ME
-                    </div>
+                    <div class="col">CONTACT ME</div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col col-10">form</div>
                 </div>
             </div>
         </section>
-
-        <!-- Sezione info -->
-        <section class="info text-white">
-            <div class="container container-md container-lg text-center">
-                <div class="row row-cols-1 row-cols-md-3 px-2 g-2">
-                    <div class="col">LOCATION</div>
-                    <div class="col">AROUND THE WEB</div>
-                    <div class="col">ABOUT FREELANCER</div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
-    <footer class="d-flex justify-content-center align-items-center text-white">
-        <span>Copyright</span>
+    <footer>
+        <div class="footer-top container ">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">LOCATION</div>
+                <div class="col">AROUND THE WEB</div>
+                <div class="col">ABOUT FREELANCER</div>
+            </div>
+        </div>
+        <div class="footer-bot container-fluid">
+            <div class="row">
+                <div class="col">Copyright</div>
+            </div>
+        </div>
     </footer>
 </body>
 
